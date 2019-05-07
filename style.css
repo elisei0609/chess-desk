@@ -1,0 +1,68 @@
+.wrapper {
+   
+   width: 100%;
+   height: 100%;
+   border: 2px solid black;
+}
+html,body {
+   height: 100%;
+}
+.key {
+   position: absolute;
+   width: 12.5%;
+   height: 100%;
+   background-color: white;
+   top: 0;
+}
+
+
+.row {
+   position: relative;
+   height: 12.5%;
+   
+}
+
+/* .row:nth-child(even) .key:nth-child(odd) {
+   background-color: black;
+} */
+
+.row:nth-child(odd) .key:nth-child(even) {
+   background-color: black;
+}
+.row:nth-child(even) .key:nth-child(odd) {
+   background-color: black;
+}
+
+
+.row:nth-child(even) .key:first-child {
+   background-color: black;
+}
+.key1 {
+   left: 0;
+}
+.key2 {
+   left: 12.5%;
+}
+.key3 {
+   left: 25%;
+}
+.key4 {
+   left: 37.5%;
+}
+.key5 {
+   left: 50%;
+}
+.key6 {
+   left: 62.5%;
+}
+.key7 {
+   left: 75%;
+}
+.key8 {
+   left: 87.5%;
+}
+.
+
+
+
+
